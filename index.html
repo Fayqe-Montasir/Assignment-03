@@ -36,7 +36,7 @@
                         <li class="text-[#737373]"><a>Contact Us</a></li>
                     </ul>
                 </div>
-                <div class="navbar-end lg:flex space-x-4  hidden">
+                <div class="navbar-end lg:flex space-x-4 hidden">
                     <i class="fa-solid fa-magnifying-glass "></i>
                     <i class="fa-solid fa-cart-shopping  "></i>
                     <a class=" btn text-xl font-bold text-[#1C1C1C] bg-[#ABEF5F] rounded-3xl">Book Consult <i
@@ -44,11 +44,7 @@
                 </div>
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost  lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4 6h16M4 12h8m-8 6h16" />
-                        </svg>
+                        <i class="fa-solid fa-bars bg-white p-2 rounded-full "></i>
                     </div>
                     <!-- <ul tabindex="0"
                         class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ">
@@ -223,29 +219,34 @@
 
             </div>
         </section>
-        <section class="bg-cover bg-center bg-[url('/assets/bg.jpg')]">
+        <section class="">
+            <div class="bg-cover bg-center bg-[url('/assets/bg.jpg')]">
             <div class="text-center w-10/12 mx-auto">
-                <button class="btn bg-[#e0f6c9] rounded-3xl mt-24 mb-4  "> <i class="fa-solid fa-arrow-right"></i>Explore
+                <button class="btn bg-[#e0f6c9] rounded-3xl mt-24 mb-4  "> <i
+                        class="fa-solid fa-arrow-right"></i>Explore
                     our Latest works</button>
                 <h3 class="text-4xl font-bold">Let’s Discuss Next Project</h3>
                 <p class="my-7">The barn house captivates with its blend of rustic charm and modern sophistication,
                     featuring weathered wood, sleek metal accents.</p>
 
+                <form class=" grid grid-cols-1 gap-6 " action="">
+                    <div class=" grid grid-cols-1 md:grid-cols-2 justify-between gap-6 ">
+                        <input class="p-5 rounded-3xl w-full" type="text" placeholder="First Name*">
+                        <input class="p-5 rounded-3xl w-full" type="text" placeholder="Last Name*">
+                    </div>
+                    <div class=" grid grid-cols-1 md:grid-cols-2 justify-between gap-6">
+                        <input class="p-5 rounded-3xl w-full" type="text" placeholder="Phone Number*">
+                        <input class="p-5 rounded-3xl w-full" type="text" placeholder="Email Number*">
+                    </div>
+                    <textarea class="text-[#A0A0A0] p-4 rounded-3xl  w-full" name=""
+                        id="" placeholder="Write your message here"></textarea>
+                </form>
 
-                    <form class="space-y-6 " action="">
-                        <input class="p-5 rounded-3xl  w-96" type="text" placeholder="First Name*">
-                        <input class="p-5 rounded-3xl w-96 " type="text" placeholder="Last Name*">
-                        <br>
-                        <input class="p-5 rounded-3xl w-96" type="text" placeholder="Phone Number*">
-                        <input class="p-5 rounded-3xl w-96" type="text" placeholder="Email Number*">
 
-                        <textarea class=" text-[#A0A0A0] p-4 rounded-3xl lg:w-[880px] w-full" name="" id="">Write your message here</textarea>
-                    </form>
-                
-
-                <button class="btn text-black bg-[#ABEF5F] w-full lg:w-[880px] rounded-3xl my-5">Send Mail<i
+                <button class="btn text-black bg-[#ABEF5F] w-full   rounded-3xl my-5">Send Mail<i
                         class="fa-solid fa-arrow-right -rotate-45 bg-black text-[#baee7d] rounded-3xl p-1"></i></button>
             </div>
+        </div>
         </section>
     </main>
     <footer class="bg-[#1C1C1C]">
@@ -255,7 +256,7 @@
                 <a class="text-white text-3xl font-bold">Rinterio</a>
                 <p class="text-[#737373] pt-3">The barn house captivates with its blend of rustic charm and modern
                     sophistication, featuring weathered wood, sleek metal accents.</p>
-                <ul class="menu menu-horizontal  px-1 py-12">
+                <ul class=" menu menu-horizontal  px-1 py-12">
                     <li class="text-[#E9E9E9]"><a>Home</a></li>
                     <li class="text-[#E9E9E9]"><a>Services</a></li>
                     <li class="text-[#E9E9E9]"><a>Portfolio</a></li>
